@@ -1,0 +1,193 @@
+{
+  "project": "Project 79: Automatic Chord Recognition from Audio",
+  "taxonomy": [
+    "C:maj",
+    "C#:maj",
+    "D:maj",
+    "D#:maj",
+    "E:maj",
+    "F:maj",
+    "F#:maj",
+    "G:maj",
+    "G#:maj",
+    "A:maj",
+    "A#:maj",
+    "B:maj",
+    "C:min",
+    "C#:min",
+    "D:min",
+    "D#:min",
+    "E:min",
+    "F:min",
+    "F#:min",
+    "G:min",
+    "G#:min",
+    "A:min",
+    "A#:min",
+    "B:min"
+  ],
+  "model": {
+    "architecture": "ChordNet (Deep Regularized MLP)",
+    "parameters": 28632,
+    "model_size_mb": 0.109222412109375
+  },
+  "test_metrics": {
+    "top1_accuracy": 0.8555555555555555,
+    "top3_accuracy": 0.9305555555555556,
+    "macro_f1": 0.8507536142690778,
+    "weighted_f1": 0.8642113395761928,
+    "loss": 0.9093452612559001
+  },
+  "per_chord_metrics": {
+    "C:maj": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1_score": 0.9655172413793104,
+      "support": 15.0
+    },
+    "C#:maj": {
+      "precision": 0.8888888888888888,
+      "recall": 0.7272727272727273,
+      "f1_score": 0.8,
+      "support": 11.0
+    },
+    "D:maj": {
+      "precision": 1.0,
+      "recall": 0.9523809523809523,
+      "f1_score": 0.975609756097561,
+      "support": 21.0
+    },
+    "D#:maj": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1_score": 0.8571428571428571,
+      "support": 20.0
+    },
+    "E:maj": {
+      "precision": 1.0,
+      "recall": 0.7647058823529411,
+      "f1_score": 0.8666666666666667,
+      "support": 17.0
+    },
+    "F:maj": {
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1_score": 0.6,
+      "support": 12.0
+    },
+    "F#:maj": {
+      "precision": 0.75,
+      "recall": 0.46153846153846156,
+      "f1_score": 0.5714285714285714,
+      "support": 13.0
+    },
+    "G:maj": {
+      "precision": 0.9285714285714286,
+      "recall": 0.8666666666666667,
+      "f1_score": 0.896551724137931,
+      "support": 15.0
+    },
+    "G#:maj": {
+      "precision": 0.9444444444444444,
+      "recall": 1.0,
+      "f1_score": 0.9714285714285714,
+      "support": 17.0
+    },
+    "A:maj": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 10.0
+    },
+    "A#:maj": {
+      "precision": 0.85,
+      "recall": 0.8095238095238095,
+      "f1_score": 0.8292682926829268,
+      "support": 21.0
+    },
+    "B:maj": {
+      "precision": 1.0,
+      "recall": 0.7272727272727273,
+      "f1_score": 0.8421052631578947,
+      "support": 11.0
+    },
+    "C:min": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1_score": 0.9565217391304348,
+      "support": 12.0
+    },
+    "C#:min": {
+      "precision": 1.0,
+      "recall": 0.6363636363636364,
+      "f1_score": 0.7777777777777778,
+      "support": 11.0
+    },
+    "D:min": {
+      "precision": 0.64,
+      "recall": 1.0,
+      "f1_score": 0.7804878048780488,
+      "support": 16.0
+    },
+    "D#:min": {
+      "precision": 1.0,
+      "recall": 0.7368421052631579,
+      "f1_score": 0.8484848484848485,
+      "support": 19.0
+    },
+    "E:min": {
+      "precision": 1.0,
+      "recall": 0.7777777777777778,
+      "f1_score": 0.875,
+      "support": 9.0
+    },
+    "F:min": {
+      "precision": 0.9411764705882353,
+      "recall": 0.8888888888888888,
+      "f1_score": 0.9142857142857143,
+      "support": 18.0
+    },
+    "F#:min": {
+      "precision": 0.5454545454545454,
+      "recall": 1.0,
+      "f1_score": 0.7058823529411765,
+      "support": 12.0
+    },
+    "G:min": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1_score": 0.6666666666666666,
+      "support": 7.0
+    },
+    "G#:min": {
+      "precision": 1.0,
+      "recall": 0.8235294117647058,
+      "f1_score": 0.9032258064516129,
+      "support": 17.0
+    },
+    "A:min": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 20.0
+    },
+    "A#:min": {
+      "precision": 1.0,
+      "recall": 0.7647058823529411,
+      "f1_score": 0.8666666666666667,
+      "support": 17.0
+    },
+    "B:min": {
+      "precision": 0.9473684210526315,
+      "recall": 0.9473684210526315,
+      "f1_score": 0.9473684210526315,
+      "support": 19.0
+    }
+  },
+  "latency_benchmark": {
+    "mean_ms": 0.15445513994200155,
+    "median_ms": 0.1368454995827051,
+    "p95_ms": 0.23456169992641662,
+    "throughput_chords_per_sec": 6474.371784425585
+  }
+}
